@@ -1,2 +1,2 @@
-roscamp
+pkg
 -DCATKIN_DEVEL_PREFIX=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/install -G Unix Makefiles

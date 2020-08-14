@@ -405,844 +405,882 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory roscamp
+# Directory level rules for directory pkg
 
 # Convenience name for "all" pass in the directory.
-roscamp/all:
+pkg/all: pkg/CMakeFiles/name.dir/all
 
-.PHONY : roscamp/all
+.PHONY : pkg/all
 
 # Convenience name for "clean" pass in the directory.
-roscamp/clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-roscamp/clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-roscamp/clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-roscamp/clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-roscamp/clean: roscamp/CMakeFiles/roscpp_generate_messages_py.dir/clean
-roscamp/clean: roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-roscamp/clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-roscamp/clean: roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-roscamp/clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-roscamp/clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-roscamp/clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-roscamp/clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-roscamp/clean: roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-roscamp/clean: roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-roscamp/clean: roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-roscamp/clean: roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+pkg/clean: pkg/CMakeFiles/name.dir/clean
+pkg/clean: pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+pkg/clean: pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+pkg/clean: pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+pkg/clean: pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+pkg/clean: pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+pkg/clean: pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+pkg/clean: pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+pkg/clean: pkg/CMakeFiles/roscpp_generate_messages_py.dir/clean
+pkg/clean: pkg/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+pkg/clean: pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+pkg/clean: pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+pkg/clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+pkg/clean: pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+pkg/clean: pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+pkg/clean: pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+pkg/clean: pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+pkg/clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+pkg/clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+pkg/clean: pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+pkg/clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+pkg/clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+pkg/clean: pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+pkg/clean: pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+pkg/clean: pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+pkg/clean: pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
-.PHONY : roscamp/clean
+.PHONY : pkg/clean
 
 # Convenience name for "preinstall" pass in the directory.
-roscamp/preinstall:
+pkg/preinstall:
 
-.PHONY : roscamp/preinstall
+.PHONY : pkg/preinstall
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir
+# Target rules for target pkg/CMakeFiles/name.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+pkg/CMakeFiles/name.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/name.dir/build.make pkg/CMakeFiles/name.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/name.dir/build.make pkg/CMakeFiles/name.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num=12,13 "Built target name"
+.PHONY : pkg/CMakeFiles/name.dir/all
+
+# Include target in all.
+all: pkg/CMakeFiles/name.dir/all
+
+.PHONY : all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/name.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/name.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : pkg/CMakeFiles/name.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_py: roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+name: pkg/CMakeFiles/name.dir/rule
+
+.PHONY : name
+
+# clean rule for target.
+pkg/CMakeFiles/name.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/name.dir/build.make pkg/CMakeFiles/name.dir/clean
+.PHONY : pkg/CMakeFiles/name.dir/clean
+
+# clean rule for target.
+clean: pkg/CMakeFiles/name.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_py
 
 # clean rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+clean: pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+# Target rules for target pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_lisp: roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+geometry_msgs_generate_messages_lisp: pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_lisp
 
 # clean rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+clean: pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+# Target rules for target pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_cpp: roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+geometry_msgs_generate_messages_cpp: pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_cpp
 
 # clean rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+clean: pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir
+# Target rules for target pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_py: roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+sensor_msgs_generate_messages_py: pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_py
 
 # clean rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+clean: pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+# Target rules for target pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_nodejs: roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+sensor_msgs_generate_messages_nodejs: pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_nodejs
 
 # clean rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+clean: pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+# Target rules for target pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_lisp: roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+sensor_msgs_generate_messages_lisp: pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_lisp
 
 # clean rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+clean: pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+# Target rules for target pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_eus: roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+geometry_msgs_generate_messages_eus: pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_eus
 
 # clean rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+clean: pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target pkg/CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_py.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_py.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_py.dir/build
+pkg/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_py.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_py.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_py.dir/all
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: roscamp/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: pkg/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 .PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_py.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_py.dir/clean
+pkg/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_py.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/roscpp_generate_messages_py.dir/clean
+clean: pkg/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/roscpp_generate_messages_eus.dir
+# Target rules for target pkg/CMakeFiles/roscpp_generate_messages_eus.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/build
+pkg/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/all
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/roscpp_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+roscpp_generate_messages_eus: pkg/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 .PHONY : roscpp_generate_messages_eus
 
 # clean rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+pkg/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+clean: pkg/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+# Target rules for target pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_nodejs: roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+geometry_msgs_generate_messages_nodejs: pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_nodejs
 
 # clean rule for target.
-roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-.PHONY : roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+clean: pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir
+# Target rules for target pkg/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 .PHONY : roscpp_generate_messages_lisp
 
 # clean rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+clean: pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+# Target rules for target pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # clean rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+# Target rules for target pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_eus: roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+sensor_msgs_generate_messages_eus: pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_eus
 
 # clean rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+clean: pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+# Target rules for target pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_cpp: roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+sensor_msgs_generate_messages_cpp: pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_cpp
 
 # clean rule for target.
-roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+clean: pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir
+# Target rules for target pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : std_msgs_generate_messages_lisp
 
 # clean rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+clean: pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir
+# Target rules for target pkg/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 .PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+clean: pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+# Target rules for target pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+rosgraph_msgs_generate_messages_eus: pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_eus
 
 # clean rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # clean rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir
+# Target rules for target pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_cpp: roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+std_msgs_generate_messages_cpp: pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : std_msgs_generate_messages_cpp
 
 # clean rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+# Target rules for target pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+rosgraph_msgs_generate_messages_nodejs: pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_nodejs
 
 # clean rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+# Target rules for target pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # clean rule for target.
-roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+clean: pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir
+# Target rules for target pkg/CMakeFiles/std_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_eus: roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+std_msgs_generate_messages_eus: pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 .PHONY : std_msgs_generate_messages_eus
 
 # clean rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+clean: pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+# Target rules for target pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_nodejs: roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+std_msgs_generate_messages_nodejs: pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : std_msgs_generate_messages_nodejs
 
 # clean rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+clean: pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir
+# Target rules for target pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+roscpp_generate_messages_nodejs: pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 .PHONY : roscpp_generate_messages_nodejs
 
 # clean rule for target.
-roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+clean: pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target roscamp/CMakeFiles/std_msgs_generate_messages_py.dir
+# Target rules for target pkg/CMakeFiles/std_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/build
+pkg/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/all
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 pkg/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/CMakeFiles 0
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+std_msgs_generate_messages_py: pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 .PHONY : std_msgs_generate_messages_py
 
 # clean rule for target.
-roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/build.make roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: roscamp/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+clean: pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 

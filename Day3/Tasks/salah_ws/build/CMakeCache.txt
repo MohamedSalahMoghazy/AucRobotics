@@ -349,10 +349,10 @@ lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
 //Value Computed by CMake
-roscamp_BINARY_DIR:STATIC=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/roscamp
+pkg_BINARY_DIR:STATIC=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/build/pkg
 
 //Value Computed by CMake
-roscamp_SOURCE_DIR:STATIC=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/src/roscamp
+pkg_SOURCE_DIR:STATIC=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/src/pkg
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
