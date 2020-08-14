@@ -1,0 +1,8 @@
+prefix=/home/mohamed/Documents/AucRobotics/Day3/Tasks/salah_ws/devel
+
+Name: roscamp
+Description: Description of roscamp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
