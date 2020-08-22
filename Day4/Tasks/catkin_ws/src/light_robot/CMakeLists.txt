@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
-  message_generation
+  message_generation   
 )
 
 ## System dependencies are found with CMake's conventions
@@ -142,6 +142,15 @@ add_executable(listener src/subscriber.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
 
 
+
+# adding those to define the msg_pub and msg_sub nodes 
+add_executable(msg_pub src/msg_pub.cpp)
+target_link_libraries(msg_pub ${catkin_LIBRARIES})
+add_dependencies(msg_pub ${light_robot_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})  #the Construct advice
+
+add_executable(msg_sub src/msg_sub.cpp)
+target_link_libraries(msg_sub ${catkin_LIBRARIES})
+add_dependencies(msg_sub ${light_robot_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS}) #the Construct advice
 
 	
 

@@ -428,6 +428,19 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named msg_sub
+
+# Build rule for target.
+msg_sub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msg_sub
+.PHONY : msg_sub
+
+# fast build rule for target.
+msg_sub/fast:
+	$(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/build
+.PHONY : msg_sub/fast
+
+#=============================================================================
 # Target rules for targets named light_robot_generate_messages_cpp
 
 # Build rule for target.
@@ -662,6 +675,19 @@ listener/fast:
 .PHONY : listener/fast
 
 #=============================================================================
+# Target rules for targets named msg_pub
+
+# Build rule for target.
+msg_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msg_pub
+.PHONY : msg_pub
+
+# fast build rule for target.
+msg_pub/fast:
+	$(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/build
+.PHONY : msg_pub/fast
+
+#=============================================================================
 # Target rules for targets named _light_robot_generate_messages_check_deps_messages
 
 # Build rule for target.
@@ -720,6 +746,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... msg_sub"
 	@echo "... light_robot_generate_messages_cpp"
 	@echo "... light_robot_gennodejs"
 	@echo "... roscpp_generate_messages_lisp"
@@ -738,6 +765,7 @@ help:
 	@echo "... talker"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... listener"
+	@echo "... msg_pub"
 	@echo "... _light_robot_generate_messages_check_deps_messages"
 	@echo "... roscpp_generate_messages_cpp"
 .PHONY : help

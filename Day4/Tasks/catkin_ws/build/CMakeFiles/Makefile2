@@ -408,9 +408,11 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory light_robot
 
 # Convenience name for "all" pass in the directory.
+light_robot/all: light_robot/CMakeFiles/msg_sub.dir/all
 light_robot/all: light_robot/CMakeFiles/light_robot_generate_messages.dir/all
 light_robot/all: light_robot/CMakeFiles/talker.dir/all
 light_robot/all: light_robot/CMakeFiles/listener.dir/all
+light_robot/all: light_robot/CMakeFiles/msg_pub.dir/all
 
 .PHONY : light_robot/all
 
@@ -426,6 +428,7 @@ light_robot/clean: light_robot/CMakeFiles/light_robot_generate_messages_nodejs.d
 light_robot/clean: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 light_robot/clean: light_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 light_robot/clean: light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+light_robot/clean: light_robot/CMakeFiles/msg_sub.dir/clean
 light_robot/clean: light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/clean
 light_robot/clean: light_robot/CMakeFiles/light_robot_gennodejs.dir/clean
 light_robot/clean: light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
@@ -444,6 +447,7 @@ light_robot/clean: light_robot/CMakeFiles/light_robot_genpy.dir/clean
 light_robot/clean: light_robot/CMakeFiles/talker.dir/clean
 light_robot/clean: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 light_robot/clean: light_robot/CMakeFiles/listener.dir/clean
+light_robot/clean: light_robot/CMakeFiles/msg_pub.dir/clean
 light_robot/clean: light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/clean
 light_robot/clean: light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
@@ -809,6 +813,62 @@ light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target light_robot/CMakeFiles/msg_sub.dir
+
+# All Build rule for target.
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+light_robot/CMakeFiles/msg_sub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/depend
+	$(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=33,34 "Built target msg_sub"
+.PHONY : light_robot/CMakeFiles/msg_sub.dir/all
+
+# Include target in all.
+all: light_robot/CMakeFiles/msg_sub.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+light_robot/CMakeFiles/msg_sub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/msg_sub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles 0
+.PHONY : light_robot/CMakeFiles/msg_sub.dir/rule
+
+# Convenience name for target.
+msg_sub: light_robot/CMakeFiles/msg_sub.dir/rule
+
+.PHONY : msg_sub
+
+# clean rule for target.
+light_robot/CMakeFiles/msg_sub.dir/clean:
+	$(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/clean
+.PHONY : light_robot/CMakeFiles/msg_sub.dir/clean
+
+# clean rule for target.
+clean: light_robot/CMakeFiles/msg_sub.dir/clean
 
 .PHONY : clean
 
@@ -1317,7 +1377,7 @@ clean: light_robot/CMakeFiles/light_robot_genpy.dir/clean
 light_robot/CMakeFiles/talker.dir/all:
 	$(MAKE) -f light_robot/CMakeFiles/talker.dir/build.make light_robot/CMakeFiles/talker.dir/depend
 	$(MAKE) -f light_robot/CMakeFiles/talker.dir/build.make light_robot/CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=31,32 "Built target talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=35,36 "Built target talker"
 .PHONY : light_robot/CMakeFiles/talker.dir/all
 
 # Include target in all.
@@ -1413,6 +1473,62 @@ light_robot/CMakeFiles/listener.dir/clean:
 
 # clean rule for target.
 clean: light_robot/CMakeFiles/listener.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target light_robot/CMakeFiles/msg_pub.dir
+
+# All Build rule for target.
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_py.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_eus.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/light_robot_generate_messages_lisp.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+light_robot/CMakeFiles/msg_pub.dir/all: light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/depend
+	$(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=31,32 "Built target msg_pub"
+.PHONY : light_robot/CMakeFiles/msg_pub.dir/all
+
+# Include target in all.
+all: light_robot/CMakeFiles/msg_pub.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+light_robot/CMakeFiles/msg_pub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles 19
+	$(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/msg_pub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles 0
+.PHONY : light_robot/CMakeFiles/msg_pub.dir/rule
+
+# Convenience name for target.
+msg_pub: light_robot/CMakeFiles/msg_pub.dir/rule
+
+.PHONY : msg_pub
+
+# clean rule for target.
+light_robot/CMakeFiles/msg_pub.dir/clean:
+	$(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/clean
+.PHONY : light_robot/CMakeFiles/msg_pub.dir/clean
+
+# clean rule for target.
+clean: light_robot/CMakeFiles/msg_pub.dir/clean
 
 .PHONY : clean
 

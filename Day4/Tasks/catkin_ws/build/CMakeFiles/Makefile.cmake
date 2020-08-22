@@ -229,6 +229,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "light_robot/CMakeFiles/msg_sub.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/light_robot_gennodejs.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
@@ -247,6 +248,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "light_robot/CMakeFiles/talker.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/listener.dir/DependInfo.cmake"
+  "light_robot/CMakeFiles/msg_pub.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/DependInfo.cmake"
   "light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake"
   )

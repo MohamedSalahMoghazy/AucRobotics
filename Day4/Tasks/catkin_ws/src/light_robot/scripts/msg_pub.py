@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-#Msg Example presented By eng Khaled Gabr 
 import rospy
 from light_robot.msg import messages
 import random

@@ -92,6 +92,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -102,16 +112,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target test
 test:
@@ -331,6 +331,21 @@ std_msgs_generate_messages_py: light_robot/CMakeFiles/std_msgs_generate_messages
 std_msgs_generate_messages_py/fast:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/build.make light_robot/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+light_robot/CMakeFiles/msg_sub.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/msg_sub.dir/rule
+.PHONY : light_robot/CMakeFiles/msg_sub.dir/rule
+
+# Convenience name for target.
+msg_sub: light_robot/CMakeFiles/msg_sub.dir/rule
+
+.PHONY : msg_sub
+
+# fast build rule for target.
+msg_sub/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/build
+.PHONY : msg_sub/fast
 
 # Convenience name for target.
 light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/rule:
@@ -603,6 +618,21 @@ listener/fast:
 .PHONY : listener/fast
 
 # Convenience name for target.
+light_robot/CMakeFiles/msg_pub.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/msg_pub.dir/rule
+.PHONY : light_robot/CMakeFiles/msg_pub.dir/rule
+
+# Convenience name for target.
+msg_pub: light_robot/CMakeFiles/msg_pub.dir/rule
+
+.PHONY : msg_pub
+
+# fast build rule for target.
+msg_pub/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/build
+.PHONY : msg_pub/fast
+
+# Convenience name for target.
 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
 .PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
@@ -631,6 +661,60 @@ roscpp_generate_messages_cpp: light_robot/CMakeFiles/roscpp_generate_messages_cp
 roscpp_generate_messages_cpp/fast:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
+
+src/msg_pub.o: src/msg_pub.cpp.o
+
+.PHONY : src/msg_pub.o
+
+# target to build an object file
+src/msg_pub.cpp.o:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/src/msg_pub.cpp.o
+.PHONY : src/msg_pub.cpp.o
+
+src/msg_pub.i: src/msg_pub.cpp.i
+
+.PHONY : src/msg_pub.i
+
+# target to preprocess a source file
+src/msg_pub.cpp.i:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/src/msg_pub.cpp.i
+.PHONY : src/msg_pub.cpp.i
+
+src/msg_pub.s: src/msg_pub.cpp.s
+
+.PHONY : src/msg_pub.s
+
+# target to generate assembly for a file
+src/msg_pub.cpp.s:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_pub.dir/build.make light_robot/CMakeFiles/msg_pub.dir/src/msg_pub.cpp.s
+.PHONY : src/msg_pub.cpp.s
+
+src/msg_sub.o: src/msg_sub.cpp.o
+
+.PHONY : src/msg_sub.o
+
+# target to build an object file
+src/msg_sub.cpp.o:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/src/msg_sub.cpp.o
+.PHONY : src/msg_sub.cpp.o
+
+src/msg_sub.i: src/msg_sub.cpp.i
+
+.PHONY : src/msg_sub.i
+
+# target to preprocess a source file
+src/msg_sub.cpp.i:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/src/msg_sub.cpp.i
+.PHONY : src/msg_sub.cpp.i
+
+src/msg_sub.s: src/msg_sub.cpp.s
+
+.PHONY : src/msg_sub.s
+
+# target to generate assembly for a file
+src/msg_sub.cpp.s:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/msg_sub.dir/build.make light_robot/CMakeFiles/msg_sub.dir/src/msg_sub.cpp.s
+.PHONY : src/msg_sub.cpp.s
 
 src/publisher.o: src/publisher.cpp.o
 
@@ -694,6 +778,8 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -703,9 +789,9 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... light_robot_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... install"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... msg_sub"
 	@echo "... light_robot_generate_messages_cpp"
 	@echo "... light_robot_gennodejs"
 	@echo "... roscpp_generate_messages_lisp"
@@ -717,7 +803,6 @@ help:
 	@echo "... light_robot_geneus"
 	@echo "... light_robot_generate_messages_eus"
 	@echo "... light_robot_generate_messages_lisp"
-	@echo "... list_install_components"
 	@echo "... light_robot_generate_messages"
 	@echo "... _light_robot_generate_messages_check_deps_auc"
 	@echo "... _light_robot_generate_messages_check_deps_Person"
@@ -726,10 +811,17 @@ help:
 	@echo "... talker"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... listener"
+	@echo "... msg_pub"
 	@echo "... _light_robot_generate_messages_check_deps_messages"
 	@echo "... test"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rebuild_cache"
+	@echo "... src/msg_pub.o"
+	@echo "... src/msg_pub.i"
+	@echo "... src/msg_pub.s"
+	@echo "... src/msg_sub.o"
+	@echo "... src/msg_sub.i"
+	@echo "... src/msg_sub.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
