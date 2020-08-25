@@ -168,6 +168,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+light_robot/CMakeFiles/word_srv_client.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/word_srv_client.dir/rule
+.PHONY : light_robot/CMakeFiles/word_srv_client.dir/rule
+
+# Convenience name for target.
+word_srv_client: light_robot/CMakeFiles/word_srv_client.dir/rule
+
+.PHONY : word_srv_client
+
+# fast build rule for target.
+word_srv_client/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_client.dir/build.make light_robot/CMakeFiles/word_srv_client.dir/build
+.PHONY : word_srv_client/fast
+
+# Convenience name for target.
+light_robot/CMakeFiles/word_srv_server.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/word_srv_server.dir/rule
+.PHONY : light_robot/CMakeFiles/word_srv_server.dir/rule
+
+# Convenience name for target.
+word_srv_server: light_robot/CMakeFiles/word_srv_server.dir/rule
+
+.PHONY : word_srv_server
+
+# fast build rule for target.
+word_srv_server/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_server.dir/build.make light_robot/CMakeFiles/word_srv_server.dir/build
+.PHONY : word_srv_server/fast
+
+# Convenience name for target.
+light_robot/CMakeFiles/add_two_ints_client.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/add_two_ints_client.dir/rule
+.PHONY : light_robot/CMakeFiles/add_two_ints_client.dir/rule
+
+# Convenience name for target.
+add_two_ints_client: light_robot/CMakeFiles/add_two_ints_client.dir/rule
+
+.PHONY : add_two_ints_client
+
+# fast build rule for target.
+add_two_ints_client/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_client.dir/build.make light_robot/CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
+# Convenience name for target.
 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/rule:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/rule
 .PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/rule
@@ -271,21 +316,6 @@ std_msgs_generate_messages_cpp: light_robot/CMakeFiles/std_msgs_generate_message
 std_msgs_generate_messages_cpp/fast:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/rule:
@@ -421,6 +451,21 @@ roscpp_generate_messages_lisp: light_robot/CMakeFiles/roscpp_generate_messages_l
 roscpp_generate_messages_lisp/fast:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
+
+# Convenience name for target.
+light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
+.PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
+
+# Convenience name for target.
+_light_robot_generate_messages_check_deps_messages: light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
+
+.PHONY : _light_robot_generate_messages_check_deps_messages
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_messages/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_messages/fast
 
 # Convenience name for target.
 light_robot/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
@@ -678,19 +723,88 @@ msg_pub/fast:
 .PHONY : msg_pub/fast
 
 # Convenience name for target.
-light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule:
-	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
-.PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
+light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-_light_robot_generate_messages_check_deps_messages: light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/rule
+rosgraph_msgs_generate_messages_lisp: light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : _light_robot_generate_messages_check_deps_messages
+.PHONY : rosgraph_msgs_generate_messages_lisp
 
 # fast build rule for target.
-_light_robot_generate_messages_check_deps_messages/fast:
-	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build
-.PHONY : _light_robot_generate_messages_check_deps_messages/fast
+rosgraph_msgs_generate_messages_lisp/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+light_robot/CMakeFiles/add_two_ints_server.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/add_two_ints_server.dir/rule
+.PHONY : light_robot/CMakeFiles/add_two_ints_server.dir/rule
+
+# Convenience name for target.
+add_two_ints_server: light_robot/CMakeFiles/add_two_ints_server.dir/rule
+
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_server.dir/build.make light_robot/CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
+
+src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
+
+.PHONY : src/add_two_ints_client.o
+
+# target to build an object file
+src/add_two_ints_client.cpp.o:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_client.dir/build.make light_robot/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.cpp.o
+
+src/add_two_ints_client.i: src/add_two_ints_client.cpp.i
+
+.PHONY : src/add_two_ints_client.i
+
+# target to preprocess a source file
+src/add_two_ints_client.cpp.i:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_client.dir/build.make light_robot/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.cpp.i
+
+src/add_two_ints_client.s: src/add_two_ints_client.cpp.s
+
+.PHONY : src/add_two_ints_client.s
+
+# target to generate assembly for a file
+src/add_two_ints_client.cpp.s:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_client.dir/build.make light_robot/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.cpp.s
+
+src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
+
+.PHONY : src/add_two_ints_server.o
+
+# target to build an object file
+src/add_two_ints_server.cpp.o:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_server.dir/build.make light_robot/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.cpp.o
+
+src/add_two_ints_server.i: src/add_two_ints_server.cpp.i
+
+.PHONY : src/add_two_ints_server.i
+
+# target to preprocess a source file
+src/add_two_ints_server.cpp.i:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_server.dir/build.make light_robot/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.cpp.i
+
+src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
+
+.PHONY : src/add_two_ints_server.s
+
+# target to generate assembly for a file
+src/add_two_ints_server.cpp.s:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/add_two_ints_server.dir/build.make light_robot/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.cpp.s
 
 src/msg_pub.o: src/msg_pub.cpp.o
 
@@ -800,6 +914,60 @@ src/subscriber.cpp.s:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/listener.dir/build.make light_robot/CMakeFiles/listener.dir/src/subscriber.cpp.s
 .PHONY : src/subscriber.cpp.s
 
+src/word_srv_client.o: src/word_srv_client.cpp.o
+
+.PHONY : src/word_srv_client.o
+
+# target to build an object file
+src/word_srv_client.cpp.o:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_client.dir/build.make light_robot/CMakeFiles/word_srv_client.dir/src/word_srv_client.cpp.o
+.PHONY : src/word_srv_client.cpp.o
+
+src/word_srv_client.i: src/word_srv_client.cpp.i
+
+.PHONY : src/word_srv_client.i
+
+# target to preprocess a source file
+src/word_srv_client.cpp.i:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_client.dir/build.make light_robot/CMakeFiles/word_srv_client.dir/src/word_srv_client.cpp.i
+.PHONY : src/word_srv_client.cpp.i
+
+src/word_srv_client.s: src/word_srv_client.cpp.s
+
+.PHONY : src/word_srv_client.s
+
+# target to generate assembly for a file
+src/word_srv_client.cpp.s:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_client.dir/build.make light_robot/CMakeFiles/word_srv_client.dir/src/word_srv_client.cpp.s
+.PHONY : src/word_srv_client.cpp.s
+
+src/word_srv_server.o: src/word_srv_server.cpp.o
+
+.PHONY : src/word_srv_server.o
+
+# target to build an object file
+src/word_srv_server.cpp.o:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_server.dir/build.make light_robot/CMakeFiles/word_srv_server.dir/src/word_srv_server.cpp.o
+.PHONY : src/word_srv_server.cpp.o
+
+src/word_srv_server.i: src/word_srv_server.cpp.i
+
+.PHONY : src/word_srv_server.i
+
+# target to preprocess a source file
+src/word_srv_server.cpp.i:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_server.dir/build.make light_robot/CMakeFiles/word_srv_server.dir/src/word_srv_server.cpp.i
+.PHONY : src/word_srv_server.cpp.i
+
+src/word_srv_server.s: src/word_srv_server.cpp.s
+
+.PHONY : src/word_srv_server.s
+
+# target to generate assembly for a file
+src/word_srv_server.cpp.s:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/word_srv_server.dir/build.make light_robot/CMakeFiles/word_srv_server.dir/src/word_srv_server.cpp.s
+.PHONY : src/word_srv_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -811,6 +979,9 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... word_srv_client"
+	@echo "... word_srv_server"
+	@echo "... add_two_ints_client"
 	@echo "... _light_robot_generate_messages_check_deps_AddTwoInts"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
@@ -818,7 +989,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... light_robot_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... light_robot_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rebuild_cache"
@@ -829,6 +999,8 @@ help:
 	@echo "... light_robot_generate_messages_cpp"
 	@echo "... light_robot_gennodejs"
 	@echo "... roscpp_generate_messages_lisp"
+	@echo "... test"
+	@echo "... _light_robot_generate_messages_check_deps_messages"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... light_robot_genlisp"
@@ -846,8 +1018,14 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... listener"
 	@echo "... msg_pub"
-	@echo "... _light_robot_generate_messages_check_deps_messages"
-	@echo "... test"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... add_two_ints_server"
+	@echo "... src/add_two_ints_client.o"
+	@echo "... src/add_two_ints_client.i"
+	@echo "... src/add_two_ints_client.s"
+	@echo "... src/add_two_ints_server.o"
+	@echo "... src/add_two_ints_server.i"
+	@echo "... src/add_two_ints_server.s"
 	@echo "... src/msg_pub.o"
 	@echo "... src/msg_pub.i"
 	@echo "... src/msg_pub.s"
@@ -860,6 +1038,12 @@ help:
 	@echo "... src/subscriber.o"
 	@echo "... src/subscriber.i"
 	@echo "... src/subscriber.s"
+	@echo "... src/word_srv_client.o"
+	@echo "... src/word_srv_client.i"
+	@echo "... src/word_srv_client.s"
+	@echo "... src/word_srv_server.o"
+	@echo "... src/word_srv_server.i"
+	@echo "... src/word_srv_server.s"
 .PHONY : help
 
 

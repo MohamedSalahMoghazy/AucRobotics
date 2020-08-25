@@ -152,7 +152,26 @@ add_executable(msg_sub src/msg_sub.cpp)
 target_link_libraries(msg_sub ${catkin_LIBRARIES})
 add_dependencies(msg_sub ${light_robot_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS}) #the Construct advice
 
-	
+
+# adding those to define the add_two_ints server and client nodes
+add_executable(add_two_ints_server src/add_two_ints_server.cpp)
+target_link_libraries(add_two_ints_server ${catkin_LIBRARIES})
+add_dependencies(add_two_ints_server light_robot_gencpp)
+
+add_executable(add_two_ints_client src/add_two_ints_client.cpp)
+target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
+add_dependencies(add_two_ints_client light_robot_gencpp)
+
+
+# adding those to define the add_two_ints server and client nodes
+add_executable(word_srv_server src/word_srv_server.cpp)
+target_link_libraries(word_srv_server ${catkin_LIBRARIES})
+add_dependencies(word_srv_server light_robot_gencpp)
+
+add_executable(word_srv_client src/word_srv_client.cpp)
+target_link_libraries(word_srv_client ${catkin_LIBRARIES})
+add_dependencies(word_srv_client light_robot_gencpp)
+
 
 
 ## Rename C++ executable without prefix

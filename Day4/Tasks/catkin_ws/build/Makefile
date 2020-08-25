@@ -285,6 +285,45 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named word_srv_client
+
+# Build rule for target.
+word_srv_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 word_srv_client
+.PHONY : word_srv_client
+
+# fast build rule for target.
+word_srv_client/fast:
+	$(MAKE) -f light_robot/CMakeFiles/word_srv_client.dir/build.make light_robot/CMakeFiles/word_srv_client.dir/build
+.PHONY : word_srv_client/fast
+
+#=============================================================================
+# Target rules for targets named word_srv_server
+
+# Build rule for target.
+word_srv_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 word_srv_server
+.PHONY : word_srv_server
+
+# fast build rule for target.
+word_srv_server/fast:
+	$(MAKE) -f light_robot/CMakeFiles/word_srv_server.dir/build.make light_robot/CMakeFiles/word_srv_server.dir/build
+.PHONY : word_srv_server/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_client
+
+# Build rule for target.
+add_two_ints_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_client
+.PHONY : add_two_ints_client
+
+# fast build rule for target.
+add_two_ints_client/fast:
+	$(MAKE) -f light_robot/CMakeFiles/add_two_ints_client.dir/build.make light_robot/CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
+#=============================================================================
 # Target rules for targets named _light_robot_generate_messages_check_deps_AddTwoInts
 
 # Build rule for target.
@@ -374,19 +413,6 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 std_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_lisp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named light_robot_generate_messages_nodejs
@@ -504,6 +530,19 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 roscpp_generate_messages_lisp/fast:
 	$(MAKE) -f light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _light_robot_generate_messages_check_deps_messages
+
+# Build rule for target.
+_light_robot_generate_messages_check_deps_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _light_robot_generate_messages_check_deps_messages
+.PHONY : _light_robot_generate_messages_check_deps_messages
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_messages/fast:
+	$(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_messages/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_nodejs
@@ -727,17 +766,30 @@ msg_pub/fast:
 .PHONY : msg_pub/fast
 
 #=============================================================================
-# Target rules for targets named _light_robot_generate_messages_check_deps_messages
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
-_light_robot_generate_messages_check_deps_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _light_robot_generate_messages_check_deps_messages
-.PHONY : _light_robot_generate_messages_check_deps_messages
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
 
 # fast build rule for target.
-_light_robot_generate_messages_check_deps_messages/fast:
-	$(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build
-.PHONY : _light_robot_generate_messages_check_deps_messages/fast
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_server
+
+# Build rule for target.
+add_two_ints_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_server
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	$(MAKE) -f light_robot/CMakeFiles/add_two_ints_server.dir/build.make light_robot/CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
 
 # Help Target
 help:
@@ -761,6 +813,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... word_srv_client"
+	@echo "... word_srv_server"
+	@echo "... add_two_ints_client"
 	@echo "... _light_robot_generate_messages_check_deps_AddTwoInts"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
@@ -768,7 +823,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... light_robot_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... light_robot_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_cpp"
@@ -778,6 +832,7 @@ help:
 	@echo "... light_robot_generate_messages_cpp"
 	@echo "... light_robot_gennodejs"
 	@echo "... roscpp_generate_messages_lisp"
+	@echo "... _light_robot_generate_messages_check_deps_messages"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... light_robot_genlisp"
@@ -795,7 +850,8 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... listener"
 	@echo "... msg_pub"
-	@echo "... _light_robot_generate_messages_check_deps_messages"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... add_two_ints_server"
 .PHONY : help
 
 

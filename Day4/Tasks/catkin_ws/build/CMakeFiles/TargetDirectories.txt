@@ -40,6 +40,9 @@
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/install.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/list_install_components.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/edit_cache.dir
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/word_srv_client.dir
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/word_srv_server.dir
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/add_two_ints_client.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/std_msgs_generate_messages_eus.dir
@@ -47,7 +50,6 @@
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/light_robot_generate_messages_py.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir
-/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/rebuild_cache.dir
@@ -58,6 +60,8 @@
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/light_robot_gennodejs.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/roscpp_generate_messages_lisp.dir
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/test.dir
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/roscpp_generate_messages_eus.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/light_robot_genlisp.dir
@@ -75,5 +79,5 @@
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/listener.dir
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/msg_pub.dir
-/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir
-/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/test.dir
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/CMakeFiles/add_two_ints_server.dir
