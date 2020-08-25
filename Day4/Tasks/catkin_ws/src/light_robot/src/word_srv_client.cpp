@@ -29,7 +29,7 @@ int main(int argc, char **argv)
         //str[i-1] = malloc (strlen (argv[i])+1);
         //strcpy(str[i-1], argv[i]);
     std::cout<<str[i]<<" "  ;
-    srv.request.word= str1[i] ;
+    srv.request.word.append(str[i]);  // using Append to add to the word but still no hope 
 
   
     
