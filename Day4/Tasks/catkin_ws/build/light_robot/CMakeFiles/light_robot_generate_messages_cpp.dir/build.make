@@ -56,6 +56,8 @@ include light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/progress.ma
 light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/auc.h
 light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/messages.h
 light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/Person.h
+light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/word.h
+light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/AddTwoInts.h
 
 
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/auc.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -76,10 +78,26 @@ light_robot/CMakeFiles/light_robot_generate_messages_cpp: /home/mohamed/Document
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from light_robot/Person.msg"
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot && /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg/Person.msg -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/word.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/word.h: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/word.srv
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/word.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/word.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from light_robot/word.srv"
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot && /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/word.srv -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot -e /opt/ros/melodic/share/gencpp/cmake/..
+
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/AddTwoInts.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/AddTwoInts.h: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/AddTwoInts.srv
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/AddTwoInts.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/AddTwoInts.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from light_robot/AddTwoInts.srv"
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot && /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/AddTwoInts.srv -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot -e /opt/ros/melodic/share/gencpp/cmake/..
+
 light_robot_generate_messages_cpp: light_robot/CMakeFiles/light_robot_generate_messages_cpp
 light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/auc.h
 light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/messages.h
 light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/Person.h
+light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/word.h
+light_robot_generate_messages_cpp: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/AddTwoInts.h
 light_robot_generate_messages_cpp: light_robot/CMakeFiles/light_robot_generate_messages_cpp.dir/build.make
 
 .PHONY : light_robot_generate_messages_cpp

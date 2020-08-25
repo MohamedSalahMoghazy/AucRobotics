@@ -56,6 +56,8 @@ include light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/progress
 light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/auc.js
 light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/messages.js
 light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/Person.js
+light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/word.js
+light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/AddTwoInts.js
 
 
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/auc.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -73,10 +75,22 @@ light_robot/CMakeFiles/light_robot_generate_messages_nodejs: /home/mohamed/Docum
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from light_robot/Person.msg"
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg/Person.msg -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg
 
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/word.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/word.js: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/word.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from light_robot/word.srv"
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/word.srv -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv
+
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/AddTwoInts.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/AddTwoInts.js: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from light_robot/AddTwoInts.srv"
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/AddTwoInts.srv -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv
+
 light_robot_generate_messages_nodejs: light_robot/CMakeFiles/light_robot_generate_messages_nodejs
 light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/auc.js
 light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/messages.js
 light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/Person.js
+light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/word.js
+light_robot_generate_messages_nodejs: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/AddTwoInts.js
 light_robot_generate_messages_nodejs: light_robot/CMakeFiles/light_robot_generate_messages_nodejs.dir/build.make
 
 .PHONY : light_robot_generate_messages_nodejs

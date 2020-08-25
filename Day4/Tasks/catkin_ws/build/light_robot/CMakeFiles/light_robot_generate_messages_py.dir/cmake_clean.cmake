@@ -3,7 +3,10 @@ file(REMOVE_RECURSE
   "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_auc.py"
   "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_messages.py"
   "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_Person.py"
+  "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_word.py"
+  "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_AddTwoInts.py"
   "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py"
+  "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

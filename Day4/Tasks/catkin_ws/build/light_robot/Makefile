@@ -113,17 +113,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -134,6 +123,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,6 +166,21 @@ preinstall/fast:
 depend:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/rule
+.PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/rule
+
+# Convenience name for target.
+_light_robot_generate_messages_check_deps_AddTwoInts: light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/rule
+
+.PHONY : _light_robot_generate_messages_check_deps_AddTwoInts
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_AddTwoInts/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_AddTwoInts/fast
 
 # Convenience name for target.
 light_robot/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
@@ -301,6 +316,21 @@ rosgraph_msgs_generate_messages_eus: light_robot/CMakeFiles/rosgraph_msgs_genera
 rosgraph_msgs_generate_messages_eus/fast:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 light_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
@@ -543,6 +573,21 @@ _light_robot_generate_messages_check_deps_Person/fast:
 .PHONY : _light_robot_generate_messages_check_deps_Person/fast
 
 # Convenience name for target.
+light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/rule:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/rule
+.PHONY : light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/rule
+
+# Convenience name for target.
+_light_robot_generate_messages_check_deps_word: light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/rule
+
+.PHONY : _light_robot_generate_messages_check_deps_word
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_word/fast:
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_word/fast
+
+# Convenience name for target.
 light_robot/CMakeFiles/light_robot_gencpp.dir/rule:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/light_robot_gencpp.dir/rule
 .PHONY : light_robot/CMakeFiles/light_robot_gencpp.dir/rule
@@ -646,21 +691,6 @@ _light_robot_generate_messages_check_deps_messages: light_robot/CMakeFiles/_ligh
 _light_robot_generate_messages_check_deps_messages/fast:
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build
 .PHONY : _light_robot_generate_messages_check_deps_messages/fast
-
-# Convenience name for target.
-light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build && $(MAKE) -f light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
 
 src/msg_pub.o: src/msg_pub.cpp.o
 
@@ -780,6 +810,8 @@ help:
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... edit_cache"
+	@echo "... _light_robot_generate_messages_check_deps_AddTwoInts"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -789,13 +821,14 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... light_robot_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... rebuild_cache"
+	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... msg_sub"
 	@echo "... light_robot_generate_messages_cpp"
 	@echo "... light_robot_gennodejs"
 	@echo "... roscpp_generate_messages_lisp"
-	@echo "... edit_cache"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... light_robot_genlisp"
@@ -806,6 +839,7 @@ help:
 	@echo "... light_robot_generate_messages"
 	@echo "... _light_robot_generate_messages_check_deps_auc"
 	@echo "... _light_robot_generate_messages_check_deps_Person"
+	@echo "... _light_robot_generate_messages_check_deps_word"
 	@echo "... light_robot_gencpp"
 	@echo "... light_robot_genpy"
 	@echo "... talker"
@@ -814,8 +848,6 @@ help:
 	@echo "... msg_pub"
 	@echo "... _light_robot_generate_messages_check_deps_messages"
 	@echo "... test"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... rebuild_cache"
 	@echo "... src/msg_pub.o"
 	@echo "... src/msg_pub.i"
 	@echo "... src/msg_pub.s"

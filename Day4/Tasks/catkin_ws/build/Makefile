@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named _light_robot_generate_messages_check_deps_AddTwoInts
+
+# Build rule for target.
+_light_robot_generate_messages_check_deps_AddTwoInts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _light_robot_generate_messages_check_deps_AddTwoInts
+.PHONY : _light_robot_generate_messages_check_deps_AddTwoInts
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_AddTwoInts/fast:
+	$(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_AddTwoInts.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_AddTwoInts/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -400,6 +413,19 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 rosgraph_msgs_generate_messages_eus/fast:
 	$(MAKE) -f light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make light_robot/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -610,6 +636,19 @@ _light_robot_generate_messages_check_deps_Person/fast:
 .PHONY : _light_robot_generate_messages_check_deps_Person/fast
 
 #=============================================================================
+# Target rules for targets named _light_robot_generate_messages_check_deps_word
+
+# Build rule for target.
+_light_robot_generate_messages_check_deps_word: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _light_robot_generate_messages_check_deps_word
+.PHONY : _light_robot_generate_messages_check_deps_word
+
+# fast build rule for target.
+_light_robot_generate_messages_check_deps_word/fast:
+	$(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_word.dir/build
+.PHONY : _light_robot_generate_messages_check_deps_word/fast
+
+#=============================================================================
 # Target rules for targets named light_robot_gencpp
 
 # Build rule for target.
@@ -700,19 +739,6 @@ _light_robot_generate_messages_check_deps_messages/fast:
 	$(MAKE) -f light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build.make light_robot/CMakeFiles/_light_robot_generate_messages_check_deps_messages.dir/build
 .PHONY : _light_robot_generate_messages_check_deps_messages/fast
 
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_cpp
-
-# Build rule for target.
-roscpp_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make light_robot/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -735,6 +761,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... _light_robot_generate_messages_check_deps_AddTwoInts"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -744,6 +771,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... light_robot_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... msg_sub"
@@ -760,6 +788,7 @@ help:
 	@echo "... light_robot_generate_messages"
 	@echo "... _light_robot_generate_messages_check_deps_auc"
 	@echo "... _light_robot_generate_messages_check_deps_Person"
+	@echo "... _light_robot_generate_messages_check_deps_word"
 	@echo "... light_robot_gencpp"
 	@echo "... light_robot_genpy"
 	@echo "... talker"
@@ -767,7 +796,6 @@ help:
 	@echo "... listener"
 	@echo "... msg_pub"
 	@echo "... _light_robot_generate_messages_check_deps_messages"
-	@echo "... roscpp_generate_messages_cpp"
 .PHONY : help
 
 

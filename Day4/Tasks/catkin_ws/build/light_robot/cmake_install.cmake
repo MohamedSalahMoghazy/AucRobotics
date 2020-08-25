@@ -46,6 +46,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/srv" TYPE FILE FILES
+    "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/AddTwoInts.srv"
+    "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/word.srv"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/cmake" TYPE FILE FILES "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot/catkin_generated/installspace/light_robot-msg-paths.cmake")
 endif()
 

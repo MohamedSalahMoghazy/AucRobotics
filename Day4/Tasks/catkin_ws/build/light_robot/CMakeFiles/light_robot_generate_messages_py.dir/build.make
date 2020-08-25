@@ -56,7 +56,10 @@ include light_robot/CMakeFiles/light_robot_generate_messages_py.dir/progress.mak
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_auc.py
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_messages.py
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_Person.py
+light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_word.py
+light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_AddTwoInts.py
 light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py
+light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py
 
 
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_auc.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
@@ -74,18 +77,42 @@ light_robot/CMakeFiles/light_robot_generate_messages_py: /home/mohamed/Documents
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG light_robot/Person"
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg/Person.msg -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg
 
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_word.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_word.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/word.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV light_robot/word"
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/word.srv -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv
+
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_AddTwoInts.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_AddTwoInts.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV light_robot/AddTwoInts"
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/srv/AddTwoInts.srv -Ilight_robot:/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/src/light_robot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p light_robot -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv
+
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_auc.py
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_messages.py
 /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_Person.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for light_robot"
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_word.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_AddTwoInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for light_robot"
 	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg --initpy
+
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_auc.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_messages.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_Person.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_word.py
+/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_AddTwoInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for light_robot"
+	cd /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/build/light_robot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv --initpy
 
 light_robot_generate_messages_py: light_robot/CMakeFiles/light_robot_generate_messages_py
 light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_auc.py
 light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_messages.py
 light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_Person.py
+light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_word.py
+light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_AddTwoInts.py
 light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py
+light_robot_generate_messages_py: /home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py
 light_robot_generate_messages_py: light_robot/CMakeFiles/light_robot_generate_messages_py.dir/build.make
 
 .PHONY : light_robot_generate_messages_py

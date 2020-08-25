@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/auc.h"
   "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/messages.h"
   "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/Person.h"
+  "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/word.h"
+  "/home/mohamed/Documents/AucRobotics/Day4/Tasks/catkin_ws/devel/include/light_robot/AddTwoInts.h"
 )
 
 # Per-language clean rules from dependency scanning.
