@@ -1,0 +1,2 @@
+gazebo_pkg
+-DCATKIN_DEVEL_PREFIX=/home/mohamed/Documents/AucRobotics/Day5/Tasks/gazebo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mohamed/Documents/AucRobotics/Day5/Tasks/gazebo_ws/install -G Unix Makefiles
